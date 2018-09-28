@@ -1,0 +1,68 @@
+<!DOCTYPE doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+                <meta content="NightCandle" name="author">
+                    <meta content="Winter Coalition Srp" name="description">
+                        <title>
+                            Winter Coalition Srp
+                        </title>
+                    </meta>
+                </meta>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
+            <header class="masthead mb-auto" id="header">
+            </header>
+            <main class="inner cover" id="main" role="main">
+                <p class="lead">
+                    复制您的killmail-esi链接填入以下框内并提交
+                </p>
+                <form id="myForm" onsubmit="openModal()">
+                    <div class="form-group">
+                        <input class="form-control" id="killmail-esi" placeholder="killmail-esi" type="url">
+                        </input>
+                    </div>
+                    <button class="btn btn-light text-dark" id="submit" type="submit">
+                        提交
+                    </button>
+                </form>
+            </main>
+            <footer class="mastfoot mt-auto" id="footer">
+            </footer>
+        </div>
+        <!-- modal -->
+        <div class="modal fade" id="myModal" role="dialog" tabindex="-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            提交成功
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            您在本次战斗中损失了<a href="https://zkillboard.com/kill/72626185/"><b>Eagle</b></a>联盟将为您补偿1.451.415.454ISK
+                        </p>
+                        <hr>
+                        <p class="text-muted">
+                        	如有疑问请咨询补损官<a href="https://zkillboard.com/character/2112596483/">GuanNaive</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default" data-dismiss="modal" type="button">
+                            Close
+                        </button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+        <script src="./bundle.js">
+        </script>
+    </body>
+</html>
